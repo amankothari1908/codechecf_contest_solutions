@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+#define ll long long int
+using namespace std;
+
+void solve(){
+        int n , x , y ; 
+        cin>>n>>x>>y;
+        int temp = (n+1)*y;
+        if(temp >= x){
+            cout<<"YES"<<endl;
+        }
+        else{
+            cout<<"NO"<<endl;
+        }
+
+}
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+    int Test = 1 ;
+    cin>>Test;
+    while(Test--){
+        solve();
+    }
+    return 0;
+}
